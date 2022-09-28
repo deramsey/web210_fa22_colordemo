@@ -20,3 +20,32 @@ header{
     font-size: 5vmax;
 }
 
+#grid{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+#side, main{
+    min-height: 70vh;
+}
+
+#side{
+    background-color: hsl(115, 88%, 13%);
+}
+
+main{
+    background-color: hsl(115, 37%, 52%);
+
+    }
+
+article{
+    width: 80%;
+    min-height: 20vh;
+    background-color: white;
+    margin: 3vh auto;
+}
+
+footer{
+    background-color: hsl(115, 88%, 5%);
+    height: 15vh;
+}
